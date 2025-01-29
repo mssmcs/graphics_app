@@ -13,7 +13,7 @@ int main()
         if (!g.isDrawable()) {
             continue;
         }
-
+        g.line({300,300},{200,100}, GREEN);
         g.text({100,100}, 20, "hello");
     }
 
