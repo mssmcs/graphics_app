@@ -6,7 +6,7 @@ set(PROJECT_VERSION 0.0.1.0)
 set(PROJECT_COMPANY_NAME "My Company")
 set(PROJECT_COMPANY_NAMESPACE "com.mycompany")  # Reverse domain name notation
 
-set(LIBRARIES mssm_graphics) # <<<<= Choose the libraries to include
+set(LIBRARIES mssm_graphics csv_reader) # <<<<= Choose the libraries to include
 
 # -----------  call ProjectInit.cmake before project()  ----------------
 include(${CMAKE_SOURCE_DIR}/../libraries/cmake/ProjectInit.cmake)
