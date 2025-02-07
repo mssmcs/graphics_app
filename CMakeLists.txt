@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.22)
 
-# SUPPORTS_OS_Windows
 # SUPPORTS_OS_Linux
 # SUPPORTS_OS_Darwin
+# SUPPORTS_OS_Windows
 
 #set(PROJECT_ID "boppy") # <<<<= override default project name if desired
 set(PROJECT_DESCRIPTION "Hello World Project")
@@ -20,7 +20,6 @@ add_executable(${PROJECT_NAME}
 )
 
 add_subdirectory(packaging)
-add_subdirectory(src)
 
 
 # -----------  call ProjectFinalize.cmake last thing ----------------
